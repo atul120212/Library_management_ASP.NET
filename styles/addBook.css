@@ -1,0 +1,42 @@
+﻿body {
+    
+    background-color:grey;
+}
+.row {
+  display: flex;
+}
+
+
+.column1 {
+  flex: 50%;
+}
+.column2 {
+  flex: 50%;
+}
+
+.container{
+    position:relative;
+    background: white;
+    border-radius:0;
+    width:auto;
+    height:auto;
+    padding:20px;
+    margin:20px;
+    box-shadow: 2px 2px 0 black;
+}
+img{
+    filter: drop-shadow(0 3px 0 black);
+    margin-top:70px; 
+    margin-left:190px
+}
+
+
+a{
+    text-align:center;
+  text-decoration-color: black;
+  color: black;
+  text-decoration: none;
+}
+
+
+
