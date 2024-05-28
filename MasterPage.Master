@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="TestGridView.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style>
+        body {
+            background-color:grey;
+}
+        .Navbar{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 70px;
+    height:auto;
+    width:auto;
+    border-radius:10px;
+    
+}
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:grey;">
+    <form id="form1" runat="server">
+    <div class="wrappper">
+        <div class="Navbar">
+            <a href="Login.aspx">Home</a>
+            <a href="Login.aspx">Adminstrator</a>
+            <a href="Login.aspx">Library Mmmber</a>
+            <a href="Login.aspx">Book Details</a>
+            <a href="AboutUs.aspx">About Us</a>
+            <a href="ContactUs.aspx">Contact Us</a>
+        </div>
+        <div class="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </div>
+        <div class="footer">
+            <h3>Footer</h3>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
