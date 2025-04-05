@@ -74,9 +74,6 @@ git clone https://github.com/atul120212/Library_management_ASP.NET.git
 
 Feel free to fork this project and contribute by submitting a pull request.
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
