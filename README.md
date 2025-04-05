@@ -57,9 +57,6 @@ git clone https://github.com/atul120212/Library_management_ASP.NET.git
    - Build the solution.
    - Run the project using IIS Express or your local server.
 
-## 📸 Screenshots
-
-_Coming soon..._
 
 ## 📌 Notes
 
